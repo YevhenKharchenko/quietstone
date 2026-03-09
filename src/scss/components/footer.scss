@@ -1,75 +1,132 @@
 .footer {
-  background: linear-gradient(135deg, #faf5ff 0%, #fdf2f8 50%, #fff 100%);
+  background: #101828;
 
   @include media(desktop) {
   }
 }
 
 .footer-bg-wrapper {
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 14px;
+  padding-bottom: 11px;
 
   @include media(desktop) {
-    padding-top: 32px;
-    padding-bottom: 67px;
+    padding-top: 18px;
+    padding-bottom: 18px;
   }
 }
 
 .footer-container {
+  padding: 0 24px;
+
   @include media(desktop) {
-    padding: 0 60px;
+    padding: 0 120px;
   }
 }
 
 .footer-content-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-bottom: 90px;
 
   @include media(desktop) {
     flex-direction: row;
+    gap: 48px;
+    margin-bottom: 52px;
   }
 }
 
-.footer-logo-text {
-  font-family: 'Consolas', sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-  text-align: center;
-  background: linear-gradient(90deg, #9810fa 0%, #e60076 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 35px;
+.footer-top-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 48px;
 
   @include media(desktop) {
-    font-size: 40px;
-    line-height: 1.8;
+    width: 100%;
+    max-width: 368px;
     margin-bottom: 0;
+  }
+}
+
+.footer-logo-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.footer-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #99a1af;
+  margin-bottom: 17px;
+
+  @include media(desktop) {
+  }
+}
+
+.footer-top-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #6a7282;
+
+  @include media(desktop) {
   }
 }
 
 .footer-nav {
-  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
 
   @include media(desktop) {
-    margin-bottom: 0;
+  }
+}
+
+.footer-list-wrapper {
+  @include media(desktop) {
+    width: 100%;
+    max-width: 368px;
+  }
+}
+
+.footer-list-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 15px;
+
+  @include media(desktop) {
   }
 }
 
 .footer-list {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 16px;
+  gap: 12px;
 
   @include media(desktop) {
-    gap: 30px;
-    margin-left: 178px;
   }
 }
 
 .footer-list-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  @include media(desktop) {
+  }
 }
 
 .footer-link {
@@ -77,29 +134,30 @@
   justify-content: center;
   align-items: center;
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.81818;
-  text-align: center;
-  color: #364153;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #99a1af;
 
   @include media(desktop) {
-    font-size: 18px;
-    line-height: 1.11111;
   }
 }
 
+.footer-icon {
+  min-width: 16px;
+  stroke: #99a1af;
+}
+
 .footer-text {
+  border-top: 1px solid #1e2939;
+  padding: 33px 0px 0px;
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 9px;
-  line-height: 2.22222;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42857;
   text-align: center;
-  color: #364153;
+  color: #6a7282;
 
   @include media(desktop) {
-    font-size: 14px;
-    line-height: 1.42857;
-    margin-left: auto;
   }
 }

@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const banner = document.getElementById('cookie-banner');
   const acceptBtn = document.getElementById('cookie-accept');
   const declineBtn = document.getElementById('cookie-decline');
+  const cookieCloseBtn = document.querySelector('.banner-close-icon');
 
   if (localStorage.getItem('cookieConsent')) {
     banner.classList.remove('show-cookie-banner');
@@ -16,6 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   declineBtn.addEventListener('click', () => {
     localStorage.setItem('cookieConsent', 'declined');
+    banner.classList.remove('show-cookie-banner');
+  });
+
+  cookieCloseBtn.addEventListener('click', () => {
     banner.classList.remove('show-cookie-banner');
   });
 });
