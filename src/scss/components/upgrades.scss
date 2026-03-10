@@ -1,0 +1,137 @@
+.upgrades-section {
+}
+
+.upgrades-bg-wrapper {
+  padding-top: 50px;
+  padding-bottom: 135px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    padding-top: 100px;
+    padding-bottom: 126px;
+    max-width: 1440px;
+  }
+}
+
+.upgrades-container {
+  @include media(desktop) {
+  }
+}
+
+.upgrades-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 48px;
+  }
+}
+
+.upgrades-text-wrapper {
+  @include media(desktop) {
+    max-width: 576px;
+  }
+}
+
+.upgrades-icon-wrapper {
+  background: linear-gradient(135deg, #fdc700 0%, #d08700 100%);
+
+  @include media(desktop) {
+  }
+}
+
+.upgrades-title {
+  @include media(desktop) {
+  }
+}
+
+.upgrades-subtitle {
+  @include media(desktop) {
+  }
+}
+
+.upgrades-top-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #4a5565;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.upgrades-list-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #364153;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.upgrades-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 38px;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.upgrades-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #4a5565;
+
+  @include media(desktop) {
+  }
+}
+
+.upgrades-middle-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #4a5565;
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.upgrades-bottom-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #4a5565;
+
+  @include media(desktop) {
+  }
+}
+
+.upgrades-img {
+  box-shadow:
+    0 8px 10px -6px rgba(0, 0, 0, 0.1),
+    0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  @include media(desktop) {
+    min-width: 576px;
+  }
+}

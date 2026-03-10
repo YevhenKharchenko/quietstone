@@ -24,7 +24,10 @@
 }
 
 .header-container {
+  padding: 0 15px;
+
   @include media(desktop) {
+    padding: 0 80px;
   }
 }
 

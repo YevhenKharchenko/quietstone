@@ -30,15 +30,15 @@ html {
 .container {
   width: 100%;
   max-width: 375px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 24px;
+  padding-left: 24px;
   margin-left: auto;
   margin-right: auto;
 
   @include media(desktop) {
     max-width: 1440px;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 120px;
+    padding-left: 120px;
   }
 }
 
@@ -72,6 +72,31 @@ html {
   line-height: 1.4;
   color: #1e2939;
   margin-bottom: 8px;
+
+  @include media(desktop) {
+  }
+}
+
+.section-icon-wrapper {
+  box-shadow:
+    0 4px 6px -4px rgba(0, 0, 0, 0.1),
+    0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: max-content;
+  margin-bottom: 24px;
+
+  @include media(desktop) {
+  }
+}
+
+.section-title-icon {
+  stroke: #fff;
+  fill: none;
+  min-width: 36px;
 
   @include media(desktop) {
   }
