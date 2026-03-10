@@ -1,0 +1,1135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Craft – Build Your Gemstone Town</title>
+    <meta
+      name="description"
+      content="Mine diamonds and gemstones, upgrade your tools, and build your own thriving town in Stone Craft. A relaxing and rewarding mining builder game."
+    />
+    <meta
+      name="keywords"
+      content="mining game, gemstone builder, idle town game, casual crafting game, diamond collecting game"
+    />
+    <meta property="og:title" content="Stone Craft" />
+    <meta
+      property="og:description"
+      content="Build your own worthy town full of diamonds and gemstones."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://quietstone.space" />
+    <meta property="og:image" content="https://quietstone.space/preview.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Stone Craft" />
+    <meta
+      name="twitter:description"
+      content="Mine, upgrade, and build your gemstone empire."
+    />
+    <meta name="twitter:image" content="https://quietstone.space/preview.jpg" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" href="/quietstone/favicon.png" />
+    
+    <script type="module" crossorigin src="/quietstone/commonHelpers3.js"></script>
+    <link rel="modulepreload" crossorigin href="/quietstone/assets/vendor-08b4ef8f.js">
+    <link rel="stylesheet" href="/quietstone/assets/vendor-d9eb7f85.css">
+    <link rel="stylesheet" href="/quietstone/assets/styles-4b107690.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="header-bg-wrapper">
+    <div class="container header-container">
+      <nav class="nav">
+        <a href="./index.html" class="header-logo-link">
+          <picture>
+            <source
+              srcset="/quietstone/assets/header-logo-desk-1db48453.png "
+              media="(min-width: 1440px)"
+              width="66"
+              height="66" />
+            <source
+              srcset="/quietstone/assets/header-logo-mob-6b3af7ae.png "
+              width="40"
+              height="40" />
+            <img
+              class="header-logo-img"
+              src="/quietstone/assets/header-logo-mob-6b3af7ae.png"
+              alt="Logo"
+              width="40"
+              height="40" /></picture
+        ></a>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <svg class="header-icon" width="16" height="16">
+              <use href="/quietstone/assets/sprite-51836d11.svg#icon-home"></use>
+            </svg>
+            <a class="nav-list-link" href="./index.html#home">Home</a>
+          </li>
+          <li class="nav-list-item">
+            <svg class="header-icon" width="16" height="16">
+              <use href="/quietstone/assets/sprite-51836d11.svg#icon-gameplay"></use>
+            </svg>
+            <a class="nav-list-link" href="./index.html#gameplay">Gameplay</a>
+          </li>
+          <li class="nav-list-item">
+            <svg class="header-icon" width="16" height="16">
+              <use href="/quietstone/assets/sprite-51836d11.svg#icon-upgrades"></use>
+            </svg>
+            <a class="nav-list-link" href="./index.html#upgrades">Upgrades</a>
+          </li>
+          <li class="nav-list-item">
+            <svg class="header-icon" width="16" height="16">
+              <use href="/quietstone/assets/sprite-51836d11.svg#icon-world"></use>
+            </svg>
+            <a class="nav-list-link" href="./index.html#features">World</a>
+          </li>
+          <li class="nav-list-item">
+            <svg class="header-icon" width="16" height="16">
+              <use href="/quietstone/assets/sprite-51836d11.svg#icon-faq"></use>
+            </svg>
+            <a class="nav-list-link" href="./index.html#faq">FAQ</a>
+          </li>
+        </ul>
+        <a
+          class="header-cta-link"
+          href="https://play.google.com/store/apps/details?id=at.artingame.stonecraft&hl=en&gl=us"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="header-download-icon" width="16" height="16">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-download"></use></svg
+          ><span class="header-cta-link-span">Download</span></a
+        >
+        <button class="nav-btn" type="button" aria-label="Open mobile menu">
+          <svg class="menu-icon" width="24" height="24">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>
+
+    <div class="context-menu">
+  <div class="container context-container">
+    <button class="close-btn" type="button" aria-label="Close mobile menu">
+      <svg class="close-icon" width="24" height="24">
+        <use href="/quietstone/assets/sprite-51836d11.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav class="context-nav">
+      <ul class="context-nav-list">
+        <li class="context-list-item">
+          <svg class="header-icon" width="16" height="16">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-home"></use>
+          </svg>
+          <a class="context-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="context-list-item">
+          <svg class="header-icon" width="16" height="16">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-gameplay"></use>
+          </svg>
+          <a class="context-list-link" href="./index.html#gameplay">Gameplay</a>
+        </li>
+        <li class="context-list-item">
+          <svg class="header-icon" width="16" height="16">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-upgrades"></use>
+          </svg>
+          <a class="context-list-link" href="./index.html#upgrades">Upgrades</a>
+        </li>
+        <li class="context-list-item">
+          <svg class="header-icon" width="16" height="16">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-world"></use>
+          </svg>
+          <a class="context-list-link" href="./index.html#features">World</a>
+        </li>
+        <li class="context-list-item">
+          <svg class="header-icon" width="16" height="16">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-faq"></use>
+          </svg>
+          <a class="context-list-link" href="./index.html#faq">FAQ</a>
+        </li>
+      </ul>
+      <a
+        class="context-cta-link"
+        href="https://play.google.com/store/apps/details?id=at.artingame.stonecraft&hl=en&gl=us"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><svg class="header-download-icon" width="16" height="16">
+          <use href="/quietstone/assets/sprite-51836d11.svg#icon-download"></use></svg
+        ><span class="header-cta-link-span">Download</span></a
+      >
+    </nav>
+  </div>
+</div>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-top-wrapper">
+    <div class="hero-bg-wrapper">
+      <div class="container hero-container">
+        <div class="hero-content-wrapper">
+          <div class="hero-text-wrapper">
+            <div class="hero-text-container">
+              <h1 class="hero-title">Stone Craft</h1>
+              <p class="hero-subtitle">Create Your Dream Mining Town</p>
+              <p class="hero-text hero-top-text">
+                Every rock's a mystery - you might find diamonds or just... more
+                rocks.
+              </p>
+              <p class="hero-text hero-middle-text">
+                In Stone Craft, you mine gemstones, collect precious resources,
+                and turn empty land into a bustling town packed with diamonds
+                and cool treasures.
+              </p>
+              <p class="hero-text hero-top-text-span">
+                <span class="hero-span">Start small</span> — just you and a
+                pickaxe.
+              </p>
+              <p class="hero-text hero-middle-text-span">
+                <span class="hero-span">End powerful</span> — with a bustling
+                settlement built on wealth and smart upgrades.
+              </p>
+              <p class="hero-text hero-bottom-text">
+                Mine stuff, build things, make your town bigger, get rich.
+                Simple as that.
+              </p>
+            </div>
+            <div class="hero-btn-wrapper">
+              <a
+                class="hero-cta-link"
+                href="https://play.google.com/store/apps/details?id=at.artingame.stonecraft&hl=en&gl=us"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="header-download-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-download"></use></svg
+                ><span class="header-cta-link-span"
+                  >Download on Google Play</span
+                ></a
+              >
+              <a class="hero-learn-link" href="./index.html#contact">
+                <span class="header-cta-link-span">Learn More</span>
+                <svg class="header-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use></svg
+              ></a>
+            </div>
+            <p class="hero-btn-text">Turn stone into fortune.</p>
+          </div>
+          <picture>
+            <source
+              srcset="/quietstone/assets/hero-img-desk-f30af77f.png "
+              media="(min-width: 1440px)"
+              width="401"
+              height="499"
+            />
+            <source
+              srcset="/quietstone/assets/hero-img-mob-dc91f14b.png "
+              width="169"
+              height="227"
+            />
+            <img
+              class="hero-img"
+              src="/quietstone/assets/hero-img-mob-dc91f14b.png"
+              alt="Screenshot of the game"
+              width="169"
+              height="227"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section about-section" id="about">
+  <div class="about-bg-wrapper">
+    <div class="container about-container">
+      <div class="about-content-wrapper">
+        <div class="about-text-wrapper">
+          <div class="section-icon-wrapper about-icon-wrapper">
+            <svg class="section-title-icon" width="36" height="36">
+              <use href="/quietstone/assets/sprite-51836d11.svg#icon-pick"></use>
+            </svg>
+          </div>
+          <h2 class="section-title about-title">Mine Precious Gems</h2>
+          <p class="section-subtitle about-subtitle">Every Rock Holds Value</p>
+          <div class="about-text-container">
+            <p class="about-text">
+              Explore areas rich with diamonds, rubies, emeralds, and rare
+              minerals.
+            </p>
+            <p class="about-text">
+              Smash rocks, grab the good stuff, and watch your bag fill up with
+              shiny treasures. The more you mine, the more your town can grow.
+            </p>
+            <p class="about-text">
+              Each tap gets you from basic rocks to shiny gems - you can
+              actually see yourself getting better.
+            </p>
+          </div>
+        </div>
+        <picture>
+          <source
+            srcset="/quietstone/assets/about-img-desk-eae78cec.png "
+            media="(min-width: 1440px)"
+            width="576"
+            height="320"
+          />
+          <source
+            srcset="/quietstone/assets/about-img-mob-523419a0.png "
+            width="324"
+            height="259"
+          />
+          <img
+            class="about-img"
+            src="/quietstone/assets/about-img-mob-523419a0.png"
+            alt="Screenshot of the game"
+            width="324"
+            height="259"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section gameplay-section" id="gameplay">
+  <div class="gameplay-bg-wrapper">
+    <div class="container gameplay-container">
+      <div class="gameplay-content-wrapper">
+        <div class="gameplay-text-wrapper">
+          <div class="section-icon-wrapper gameplay-icon-wrapper">
+            <svg class="section-title-icon" width="36" height="36">
+              <use href="/quietstone/assets/sprite-51836d11.svg#icon-town"></use>
+            </svg>
+          </div>
+          <h2 class="section-title gameplay-title">Build Your Own Town</h2>
+          <p class="section-subtitle gameplay-subtitle">
+            From Camp to Prosperous Settlement
+          </p>
+          <p class="gameplay-top-text">
+            Stone Craft isn't just about mining — it's about creation.
+          </p>
+          <p class="gameplay-list-text">Use your collected resources to:</p>
+          <div class="gameplay-text-container">
+            <p class="gameplay-text">Construct new buildings</p>
+            <p class="gameplay-text">Unlock production stations</p>
+            <p class="gameplay-text">Expand territory</p>
+            <p class="gameplay-text">Upgrade infrastructure</p>
+          </div>
+          <p class="gameplay-bottom-text">
+            What starts as a tiny camp eventually becomes this incredible town
+            that's basically made of gems.
+          </p>
+        </div>
+        <picture>
+          <source
+            srcset="/quietstone/assets/gameplay-img-desk-19f25bd2.png "
+            media="(min-width: 1440px)"
+            width="576"
+            height="320"
+          />
+          <source
+            srcset="/quietstone/assets/gameplay-img-mob-b002a768.png "
+            width="324"
+            height="259"
+          />
+          <img
+            class="gameplay-img"
+            src="/quietstone/assets/gameplay-img-mob-b002a768.png"
+            alt="Screenshot of the game"
+            width="324"
+            height="259"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section upgrades-section" id="upgrades">
+  <div class="upgrades-bg-wrapper">
+    <div class="container upgrades-container">
+      <div class="upgrades-content-wrapper">
+        <div class="upgrades-text-wrapper">
+          <div class="section-icon-wrapper upgrades-icon-wrapper">
+            <svg class="section-title-icon" width="36" height="36">
+              <use href="/quietstone/assets/sprite-51836d11.svg#icon-lightning"></use>
+            </svg>
+          </div>
+          <h2 class="section-title upgrades-title">Smart Upgrades</h2>
+          <p class="section-subtitle upgrades-subtitle">
+            Work Faster. Carry More. Earn Bigger.
+          </p>
+          <p class="upgrades-top-text">
+            As your town grows, so do your abilities.
+          </p>
+          <p class="upgrades-list-text">Upgrade:</p>
+          <div class="upgrades-text-container">
+            <p class="upgrades-text">Backpack space</p>
+            <p class="upgrades-text">Movement speed</p>
+            <p class="upgrades-text">Mining power</p>
+            <p class="upgrades-text">Special tools</p>
+          </div>
+          <p class="upgrades-middle-text">
+            Get better pickaxes and other tools that make mining way faster.
+          </p>
+          <p class="upgrades-bottom-text">
+            The smarter you upgrade, the faster you expand.
+          </p>
+        </div>
+        <picture>
+          <source
+            srcset="/quietstone/assets/upgrades-img-desk-9d6afc13.png "
+            media="(min-width: 1440px)"
+            width="576"
+            height="320"
+          />
+          <source
+            srcset="/quietstone/assets/upgrades-img-mob-dcc1a126.png "
+            width="324"
+            height="259"
+          />
+          <img
+            class="upgrades-img"
+            src="/quietstone/assets/upgrades-img-mob-dcc1a126.png"
+            alt="Screenshot of the game"
+            width="324"
+            height="259"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="features-section section" id="features">
+  <div class="features-section-wrapper">
+    <div class="container features-container">
+      <h2 class="section-title features-title">Endless Possibilities</h2>
+      <p class="features-text">A game designed to grow with you</p>
+      <div class="features-swiper-container">
+        <ul class="swiper-wrapper features-swiper-wrapper">
+          <li class="swiper-slide features-list-item">
+            <div class="features-item-img-wrapper">
+              <svg class="features-icon" width="36" height="36">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-trend"></use>
+              </svg>
+            </div>
+            <p class="features-item-title">Satisfying Progression</p>
+            <p class="features-item-subtitle">
+              Visible Growth, Constant Reward
+            </p>
+            <p class="features-item-text">
+              I'll be honest - this game's pretty addictive once you get going.
+            </p>
+            <ul class="features-item-list">
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">
+                  Increasing resource output
+                </p>
+              </li>
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">
+                  Faster mining animations
+                </p>
+              </li>
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">
+                  Bigger gemstone clusters
+                </p>
+              </li>
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">
+                  Expanding town layouts
+                </p>
+              </li>
+            </ul>
+            <p class="features-item-bottom-text">
+              The loop is simple and rewarding: Mine → Upgrade → Build → Expand
+              → Repeat. Each session feels productive.
+            </p>
+          </li>
+          <li class="swiper-slide features-list-item">
+            <div class="features-item-img-wrapper">
+              <svg class="features-icon" width="36" height="36">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-star"></use>
+              </svg>
+            </div>
+            <p class="features-item-title">Relaxed Resource Gameplay</p>
+            <p class="features-item-subtitle">Calm, Steady, Addictive</p>
+            <p class="features-item-text">
+              No complicated controls. No overwhelming mechanics.
+            </p>
+            <ul class="features-item-list">
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">
+                  Simple tap interactions
+                </p>
+              </li>
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">Clear objectives</p>
+              </li>
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">Smooth animations</p>
+              </li>
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">Relaxing progression</p>
+              </li>
+            </ul>
+            <p class="features-item-bottom-text">
+              Great whether you've got 10 minutes or want to spend hours
+              building.
+            </p>
+          </li>
+          <li class="swiper-slide features-list-item">
+            <div class="features-item-img-wrapper">
+              <svg class="features-icon" width="36" height="36">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-world"></use>
+              </svg>
+            </div>
+            <p class="features-item-title">A World Full of Treasure</p>
+            <p class="features-item-subtitle">
+              Diamonds Are Just the Beginning
+            </p>
+            <p class="features-item-text">As you advance, you'll discover:</p>
+            <ul class="features-item-list">
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">Richer mining zones</p>
+              </li>
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">
+                  Larger gem formations
+                </p>
+              </li>
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">
+                  Advanced crafting possibilities
+                </p>
+              </li>
+              <li class="features-item-list-item">
+                <svg class="features-chevron-icon" width="20" height="20">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <p class="features-item-list-item-text">
+                  Stronger economic flow
+                </p>
+              </li>
+            </ul>
+            <p class="features-item-bottom-text">
+              The world grows alongside your town, offering new opportunities at
+              every stage.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="controls features-controls">
+        <button
+          class="arrow-btn"
+          id="featuresLeftArrow"
+          aria-label="Previous slide"
+        >
+          <svg class="arrow-icon" width="24" height="24">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <div class="dots">
+          <div class="features-dot active"></div>
+          <div class="features-dot"></div>
+          <div class="features-dot"></div>
+        </div>
+        <button
+          class="arrow-btn"
+          id="featuresRightArrow"
+          aria-label="Next slide"
+        >
+          <svg class="arrow-icon" width="24" height="24">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="advantages-section section" id="advantages">
+  <div class="advantages-section-wrapper">
+    <div class="container advantages-container">
+      <h2 class="section-title advantages-title">Why Play Stone Craft</h2>
+      <p class="section-subtitle advantages-subtitle">A Builder with Sparkle</p>
+      <p class="advantages-text">
+        It's simple enough for anyone to enjoy, yet satisfying enough to keep
+        building.
+      </p>
+      <div class="advantages-swiper-container">
+        <ul class="swiper-wrapper advantages-swiper-wrapper">
+          <li class="swiper-slide advantages-list-item">
+            <div class="advantages-item-img-wrapper">
+              <svg class="advantages-icon" width="32" height="32">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-pick"></use>
+              </svg>
+            </div>
+            <p class="advantages-item-text">Casual mining mechanics</p>
+          </li>
+          <li class="swiper-slide advantages-list-item">
+            <div class="advantages-item-img-wrapper">
+              <svg class="advantages-icon" width="32" height="32">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-town"></use>
+              </svg>
+            </div>
+            <p class="advantages-item-text">Town-building progression</p>
+          </li>
+          <li class="swiper-slide advantages-list-item">
+            <div class="advantages-item-img-wrapper">
+              <svg class="advantages-icon" width="32" height="32">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-lightning"></use>
+              </svg>
+            </div>
+            <p class="advantages-item-text">Upgrade strategy</p>
+          </li>
+          <li class="swiper-slide advantages-list-item">
+            <div class="advantages-item-img-wrapper">
+              <svg class="advantages-icon" width="32" height="32">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-trend"></use>
+              </svg>
+            </div>
+            <p class="advantages-item-text">Resource management</p>
+          </li>
+          <li class="swiper-slide advantages-list-item">
+            <div class="advantages-item-img-wrapper">
+              <svg class="advantages-icon" width="32" height="32">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-star"></use>
+              </svg>
+            </div>
+            <p class="advantages-item-text">Bright and cheerful design</p>
+          </li>
+        </ul>
+      </div>
+      <div class="controls advantages-controls">
+        <button
+          class="arrow-btn"
+          id="advantagesLeftArrow"
+          aria-label="Previous slide"
+        >
+          <svg class="arrow-icon" width="24" height="24">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <div class="dots">
+          <div class="advantages-dot active"></div>
+          <div class="advantages-dot"></div>
+          <div class="advantages-dot"></div>
+          <div class="advantages-dot"></div>
+          <div class="advantages-dot"></div>
+        </div>
+        <button
+          class="arrow-btn"
+          id="advantagesRightArrow"
+          aria-label="Next slide"
+        >
+          <svg class="arrow-icon" width="24" height="24">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="reviews-section section" id="reviews">
+  <div class="reviews-section-wrapper">
+    <div class="container reviews-container">
+      <div class="reviews-top-rating-wrapper">
+        <svg class="rating-top-icon" width="24" height="24">
+          <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+        </svg>
+        <svg class="rating-top-icon" width="24" height="24">
+          <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+        </svg>
+        <svg class="rating-top-icon" width="24" height="24">
+          <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+        </svg>
+        <svg class="rating-top-icon" width="24" height="24">
+          <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+        </svg>
+        <svg class="rating-top-icon" width="24" height="24">
+          <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+        </svg>
+      </div>
+      <h2 class="section-title reviews-title">What Players Say</h2>
+      <p class="reviews-text">Loved by millions of players worldwide</p>
+      <div class="reviews-swiper-container">
+        <ul class="swiper-wrapper reviews-swiper-wrapper">
+          <li class="swiper-slide reviews-list-item">
+            <div class="reviews-item-rating-wrapper">
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+            </div>
+            <p class="reviews-item-text">
+              “Didn't expect to get hooked on this but here I am, three hours
+              later still upgrading my town lol. It feels like you're always
+              making progress, which is nice. Watching my town get bigger is
+              really satisfying.”
+            </p>
+            <p class="reviews-item-name">Ethan R.</p>
+          </li>
+          <li class="swiper-slide reviews-list-item">
+            <div class="reviews-item-rating-wrapper">
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+            </div>
+            <p class="reviews-item-text">
+              “The gemstone visuals are bright and satisfying. Mining feels
+              smooth and simple, but upgrading adds a layer of strategy. It’s
+              perfect for relaxing after work. I always feel like I’ve
+              accomplished something.”
+            </p>
+            <p class="reviews-item-name">Mia L.</p>
+          </li>
+          <li class="swiper-slide reviews-list-item">
+            <div class="reviews-item-rating-wrapper">
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+            </div>
+            <p class="reviews-item-text">
+              “The upgrades feel fair - getting a bigger backpack and moving
+              faster actually makes a real difference in how the game plays. It
+              keeps things fresh without being complicated. Great casual
+              builder.”
+            </p>
+            <p class="reviews-item-name">Lucas T.</p>
+          </li>
+          <li class="swiper-slide reviews-list-item">
+            <div class="reviews-item-rating-wrapper">
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+            </div>
+            <p class="reviews-item-text">
+              “I enjoy how clean and colorful the design is. It doesn’t
+              overwhelm you with features. It’s just a steady loop of mining and
+              building that feels good every time.”
+            </p>
+            <p class="reviews-item-name">Olivia K.</p>
+          </li>
+          <li class="swiper-slide reviews-list-item">
+            <div class="reviews-item-rating-wrapper">
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+              <svg class="rating-icon" width="20" height="20">
+                <use href="/quietstone/assets/sprite-51836d11.svg#icon-rating"></use>
+              </svg>
+            </div>
+            <p class="reviews-item-text">
+              “The Golden Pickaxe power-up was a great surprise. It makes mining
+              faster and feels rewarding. The game scales nicely as you unlock
+              new zones.”
+            </p>
+            <p class="reviews-item-name">Daniel M.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="controls reviews-controls">
+        <button
+          class="arrow-btn"
+          id="reviewsLeftArrow"
+          aria-label="Previous slide"
+        >
+          <svg class="arrow-icon" width="24" height="24">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <div class="dots">
+          <div class="reviews-dot active"></div>
+          <div class="reviews-dot"></div>
+          <div class="reviews-dot"></div>
+          <div class="reviews-dot"></div>
+          <div class="reviews-dot"></div>
+        </div>
+        <button
+          class="arrow-btn"
+          id="reviewsRightArrow"
+          aria-label="Next slide"
+        >
+          <svg class="arrow-icon" width="24" height="24">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section faq-section" id="faq">
+  <div class="faq-bg-wrapper">
+    <div class="container faq-container">
+      <div class="faq-content-wrapper">
+        <h2 class="section-title faq-title">Frequently Asked Questions</h2>
+        <ul class="faq-list">
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text"
+                >Is Stone Craft difficult to play?</span
+              >
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="24" height="24">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              No. The game is designed to be accessible and intuitive. Mining
+              and upgrading are simple actions, making it easy for new players
+              to jump in. However, planning upgrades wisely helps you progress
+              faster.
+            </p>
+          </li>
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text">Can I play offline?</span>
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="24" height="24">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              Yes. Stone Craft can be enjoyed without an internet connection.
+              This makes it perfect for travel or playing on the go.
+            </p>
+          </li>
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text">Are there time limits?</span>
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="24" height="24">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              There's no pressure or countdown timers stressing you out. You can
+              build and mine at your own pace. It's pretty chill but you still
+              feel like you're getting stuff done.
+            </p>
+          </li>
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text"
+                >What kind of upgrades are available?</span
+              >
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="24" height="24">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              You can improve backpack capacity, movement speed, mining power,
+              and unlock special tools. Each upgrade directly impacts how
+              efficiently you collect resources.
+            </p>
+          </li>
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text"
+                >Is the game suitable for casual players?</span
+              >
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="24" height="24">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              Absolutely. Stone Craft is designed for casual sessions, but it
+              also rewards longer play with steady town development and deeper
+              resource management.
+            </p>
+          </li>
+          <li class="faq-list-item">
+            <button class="faq-top-text-btn">
+              <span class="faq-btn-text">Does the town visually expand?</span>
+              <span class="faq-toggle-symbol"
+                ><svg class="faq-icon" width="24" height="24">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use></svg
+              ></span>
+            </button>
+            <p class="faq-bottom-text">
+              Yes. As you invest resources, your settlement grows and becomes
+              more impressive. The visual progress reinforces your achievements.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section contact-section" id="contact">
+  <div class="contact-bg-wrapper">
+    <div class="contact-wrapper">
+      <div class="container contact-container">
+        <div class="contact-content-wrapper">
+          <h2 class="section-title contact-title">
+            Ready to Build a Gemstone Empire?
+          </h2>
+          <p class="contact-top-text">Start with a stone.</p>
+          <p class="contact-bottom-text">End with a town of diamonds.</p>
+          <p class="contact-btn-text">
+            Download Stone Craft now and begin crafting your fortune.
+          </p>
+          <a
+            class="contact-cta-link"
+            href="https://play.google.com/store/apps/details?id=at.artingame.stonecraft&hl=en&gl=us"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="contact-download-icon" width="24" height="24">
+              <use href="/quietstone/assets/sprite-51836d11.svg#icon-download"></use></svg
+            ><span class="contact-cta-link-span">Download Now</span
+            ><svg class="contact-arrow-icon" width="24" height="24">
+              <use href="/quietstone/assets/sprite-51836d11.svg#icon-arrow"></use></svg
+          ></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="footer-bg-wrapper">
+    <div class="container footer-container">
+      <div class="footer-content-wrapper">
+        <div class="footer-top-wrapper">
+          <a href="./index.html" class="footer-logo-link">
+            <picture>
+              <source
+                srcset="/quietstone/assets/header-logo-desk-1db48453.png "
+                media="(min-width: 1440px)"
+                width="66"
+                height="66" />
+              <source
+                srcset="/quietstone/assets/header-logo-mob-6b3af7ae.png "
+                width="40"
+                height="40" />
+              <img
+                class="header-logo-img"
+                src="/quietstone/assets/header-logo-mob-6b3af7ae.png"
+                alt="Logo"
+                width="40"
+                height="40" /></picture
+          ></a>
+          <p class="footer-subtitle">Build. Mine. Prosper.</p>
+          <p class="footer-top-text">Craft your town. Shape your future.</p>
+        </div>
+        <nav class="footer-nav">
+          <div class="footer-list-wrapper">
+            <p class="footer-list-text">Navigation</p>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <a class="footer-link" href="./index.html#home">Home</a>
+              </li>
+              <li class="footer-list-item">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <a class="footer-link" href="./index.html#gameplay">Gameplay</a>
+              </li>
+              <li class="footer-list-item">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <a class="footer-link" href="./index.html#upgrades">Upgrades</a>
+              </li>
+              <li class="footer-list-item">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <a class="footer-link" href="./index.html#world">World</a>
+              </li>
+              <li class="footer-list-item">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <a class="footer-link" href="./index.html#faq">FAQ</a>
+              </li>
+              <li class="footer-list-item">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <a class="footer-link" href="./index.html#cta">Download</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-list-wrapper">
+            <p class="footer-list-text">Legal</p>
+            <ul class="footer-list">
+              <li class="footer-list-item">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <a class="footer-link" href="./terms-and-conditions.html"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="footer-list-item">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <a class="footer-link" href="./privacy-policy.html"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="footer-list-item">
+                <svg class="footer-icon" width="16" height="16">
+                  <use href="/quietstone/assets/sprite-51836d11.svg#icon-chevron"></use>
+                </svg>
+                <a class="footer-link" href="./cookies-policy.html"
+                  >Cookies Policy</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <p class="footer-text">© 2026 — All rights reserved. quietstone.space</p>
+    </div>
+  </div>
+</footer>
+
+    <section id="cookie-banner" class="cookie-banner-section">
+  <div class="cookie-banner-top-line"></div>
+  <div class="cookie-banner-wrapper">
+    <div class="cookie-banner-text-wrapper">
+      <div class="cookie-banner-top-wrapper">
+        <p class="cookie-banner-subtitle">We use cookies</p>
+        <button
+          class="cookie-banner-close-btn"
+          type="button"
+          aria-label="Close cookie banner"
+        >
+          <svg class="banner-close-icon" width="20" height="20">
+            <use href="/quietstone/assets/sprite-51836d11.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+      <p class="cookie-banner-text">
+        We use cookies to enhance your browsing experience, analyze site
+        traffic, and personalize content. By clicking "Accept All", you consent
+        to our use of cookies.
+      </p>
+      <a href="./cookies-policy.html" class="cookie-banner-link">Learn more</a>
+    </div>
+    <div class="cookie-banner-buttons">
+      <button class="cookie-decline-btn" id="cookie-decline">
+        <span class="banner-btn-span">Reject All</span>
+      </button>
+      <button class="cookie-accept-btn" id="cookie-accept">
+        Accept All Cookies ✨
+      </button>
+    </div>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>
