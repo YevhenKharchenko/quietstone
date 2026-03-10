@@ -1,72 +1,65 @@
-.reviews-section {
+.advantages-section {
   @include media(desktop) {
   }
 }
 
-.reviews-section-wrapper {
-  padding-top: 26px;
-  padding-bottom: 30px;
+.advantages-section-wrapper {
+  padding-top: 63px;
+  padding-bottom: 50px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
 
   @include media(desktop) {
-    padding-top: 100px;
+    padding-top: 116px;
+    padding-bottom: 16px;
     max-width: 1440px;
   }
 }
 
-.reviews-container {
-  padding: 0 12px;
-
+.advantages-container {
   @include media(desktop) {
-    padding: 0 100px;
+    padding: 0 117px;
   }
 }
 
-.reviews-top-rating-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-
-  @include media(desktop) {
-  }
-}
-
-.rating-top-icon {
-  min-width: 24px;
-
-  @include media(desktop) {
-  }
-}
-
-.reviews-title {
+.advantages-title {
   text-align: center;
+  margin-bottom: 0;
 
   @include media(desktop) {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
   }
 }
 
-.reviews-text {
+.advantages-subtitle {
+  text-align: center;
+  margin-bottom: 2px;
+
+  @include media(desktop) {
+    margin-bottom: 16px;
+  }
+}
+
+.advantages-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.42857;
   text-align: center;
   color: #4a5565;
-  margin-bottom: 48px;
+  margin-bottom: 35px;
 
   @include media(desktop) {
     font-size: 18px;
     line-height: 1.55556;
+    margin-bottom: 48px;
   }
 }
 
-.reviews-swiper-container {
-  max-width: 350px;
+.advantages-swiper-container {
+  max-width: 221px;
   margin-left: auto;
   margin-right: auto;
 
@@ -75,88 +68,81 @@
   }
 }
 
-.reviews-swiper-container.show {
+.advantages-swiper-container.show {
   visibility: visible;
 }
 
-.reviews-swiper-wrapper {
+.advantages-swiper-wrapper {
   @include media(desktop) {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
+    gap: 24px;
     width: 100%;
   }
 }
 
-.reviews-list-item {
-  box-shadow:
-    0 4px 6px -4px rgba(0, 0, 0, 0.1),
-    0 10px 15px -3px rgba(0, 0, 0, 0.1);
-  background: #fff;
+.advantages-list-item {
+  background: linear-gradient(135deg, #eff6ff 0%, #ecfeff 100%);
   border-radius: 16px;
-  padding: 10px 20px;
+  padding: 24px;
   width: 100% !important;
-  max-width: 350px;
-  height: auto !important;
+  max-width: 221px;
+  min-height: 176px;
   display: flex !important;
   flex-direction: column;
+  align-items: center;
+  gap: 16px;
   overflow: hidden;
 
   @include media(desktop) {
-    padding: 32px;
-    max-width: 379px;
   }
 }
 
-.reviews-item-rating-wrapper {
+.advantages-item-img-wrapper {
+  box-shadow:
+    0 2px 4px -2px rgba(0, 0, 0, 0.1),
+    0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 16px;
+  padding: 16px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 4px;
-  margin-bottom: 4px;
-
-  @include media(desktop) {
-    margin-bottom: 16px;
-  }
-}
-
-.rating-icon {
-  min-width: 20px;
+  max-width: max-content;
 
   @include media(desktop) {
   }
 }
 
-.reviews-item-text {
+.advantages-icon {
+  stroke: #00a8e8;
+  fill: none;
+  min-width: 32px;
+
+  @include media(desktop) {
+  }
+}
+
+.advantages-item-text {
   font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.625;
-  color: #364153;
-  margin-bottom: 6px;
-
-  @include media(desktop) {
-    font-size: 16px;
-    line-height: 1.625;
-    margin-bottom: 16px;
-  }
-}
-
-.reviews-item-name {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #101828;
+  text-align: center;
+  color: #364153;
+  max-width: 147px;
 
   @include media(desktop) {
-    font-size: 16px;
-    line-height: 1.5;
   }
 }
 
-.reviews-dot {
+.advantages-controls {
+  @include media(desktop) {
+  }
+}
+
+.advantages-dot {
   border-radius: 100%;
   width: 4px;
   height: 4px;
@@ -166,7 +152,7 @@
   cursor: pointer;
 }
 
-.reviews-dot.active {
+.advantages-dot.active {
   background-color: #171717;
   transform: scale(1.3);
 }

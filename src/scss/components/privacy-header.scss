@@ -1,5 +1,22 @@
+.privacy-body {
+  .privacy-header {
+    background: #ffe8e8;
+  }
+}
+
+.terms-body {
+  .privacy-header {
+    background: #dcf9fe;
+  }
+}
+
+.cookies-body {
+  .privacy-header {
+    background: #f4f8d7;
+  }
+}
+
 .privacy-header {
-  background: #fdf2f8;
   padding: 10px 0;
   position: fixed;
   width: 100%;
@@ -7,7 +24,7 @@
   z-index: 10;
 
   @include media(desktop) {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 }
 

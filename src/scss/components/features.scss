@@ -1,5 +1,9 @@
 .features-section {
+  background: #fdf2f8;
+  scroll-margin-top: 70px;
+
   @include media(desktop) {
+    scroll-margin-top: 100px;
   }
 }
 
@@ -182,7 +186,7 @@
   margin-bottom: 16px;
 
   @include media(desktop) {
-    ont-size: 16px;
+    font-size: 16px;
     line-height: 1.5;
   }
 }
